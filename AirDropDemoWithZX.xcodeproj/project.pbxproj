@@ -13,6 +13,8 @@
 		5B0DA3551CDEEA8A006A4C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DA3531CDEEA8A006A4C06 /* Main.storyboard */; };
 		5B0DA3571CDEEA8A006A4C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DA3561CDEEA8A006A4C06 /* Assets.xcassets */; };
 		5B0DA35A1CDEEA8A006A4C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DA3581CDEEA8A006A4C06 /* LaunchScreen.storyboard */; };
+		5B0DA3661CDEEF79006A4C06 /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0DA3651CDEEF79006A4C06 /* DemoViewController.m */; };
+		5B0DA36F1CDEFE61006A4C06 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B0DA36E1CDEFE61006A4C06 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		5B0DA3561CDEEA8A006A4C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0DA3591CDEEA8A006A4C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B0DA35B1CDEEA8A006A4C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0DA3641CDEEF79006A4C06 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		5B0DA3651CDEEF79006A4C06 /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		5B0DA36E1CDEFE61006A4C06 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		5B0DA3491CDEEA8A006A4C06 /* AirDropDemoWithZX */ = {
 			isa = PBXGroup;
 			children = (
+				5B0DA3671CDEF8D8006A4C06 /* files */,
 				5B0DA34D1CDEEA8A006A4C06 /* AppDelegate.h */,
 				5B0DA34E1CDEEA8A006A4C06 /* AppDelegate.m */,
 				5B0DA3501CDEEA8A006A4C06 /* ViewController.h */,
 				5B0DA3511CDEEA8A006A4C06 /* ViewController.m */,
+				5B0DA3641CDEEF79006A4C06 /* DemoViewController.h */,
+				5B0DA3651CDEEF79006A4C06 /* DemoViewController.m */,
 				5B0DA3531CDEEA8A006A4C06 /* Main.storyboard */,
 				5B0DA3561CDEEA8A006A4C06 /* Assets.xcassets */,
 				5B0DA3581CDEEA8A006A4C06 /* LaunchScreen.storyboard */,
@@ -77,6 +85,14 @@
 				5B0DA34B1CDEEA8A006A4C06 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B0DA3671CDEF8D8006A4C06 /* files */ = {
+			isa = PBXGroup;
+			children = (
+				5B0DA36E1CDEFE61006A4C06 /* demo.png */,
+			);
+			path = files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0DA35A1CDEEA8A006A4C06 /* LaunchScreen.storyboard in Resources */,
+				5B0DA36F1CDEFE61006A4C06 /* demo.png in Resources */,
 				5B0DA3571CDEEA8A006A4C06 /* Assets.xcassets in Resources */,
 				5B0DA3551CDEEA8A006A4C06 /* Main.storyboard in Resources */,
 			);
@@ -153,6 +170,7 @@
 				5B0DA3521CDEEA8A006A4C06 /* ViewController.m in Sources */,
 				5B0DA34F1CDEEA8A006A4C06 /* AppDelegate.m in Sources */,
 				5B0DA34C1CDEEA8A006A4C06 /* main.m in Sources */,
+				5B0DA3661CDEEF79006A4C06 /* DemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirDropDemoWithZX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.AirDropDemoWithZX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.FaceExchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AirDropDemoWithZX/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.AirDropDemoWithZX;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxin.FaceExchange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
